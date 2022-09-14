@@ -1,0 +1,38 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.editButton {
+  background-color: teal;
+  border: none;
+  padding: 5px 14px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: red;
+  cursor: pointer;
+  font-size: 22px;
+}
